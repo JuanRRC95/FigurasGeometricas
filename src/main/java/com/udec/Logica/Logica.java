@@ -159,7 +159,8 @@ public class Logica {
      * Metodo que captura los datos para el cubo.
      */
     public void capturaDatosCubo(){
-        System.out.println("Ingrese el tamaño de la arista :");
+        
+        System.out.println("Ingrese el tamaño de la arista : "+"(Se asumira que el cubo es perfecto)");
         double arista = consola.nextDouble();
         Cubo cubo = new Cubo(arista);
         lista.add(cubo);
